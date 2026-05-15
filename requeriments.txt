@@ -1,9 +1,0 @@
-torch>=2.5.0
-torchvision>=0.19.0
-transformers>=4.45.0
-accelerate>=0.29.3
-Pillow
-pandas
-psutil
-nvidia-ml-py
-pyRAPL
