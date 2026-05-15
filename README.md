@@ -28,8 +28,7 @@ Sobre este proyecto se pueden realizar diferentes pruebas, en función del tipo 
 
 La estructura del código debe ser la siguiente:
 
-<img width="557" height="116" alt="estructura_archivos" src="https://github.com/user-attachments/assets/882750c9-668d-4d40-ae21-a414199ee978" />
-
+<img width="703" height="208" alt="estructura_archivos" src="https://github.com/user-attachments/assets/51a78ca5-217f-4324-93e8-ae6ed5521c3e" />
 
 --- 
 
