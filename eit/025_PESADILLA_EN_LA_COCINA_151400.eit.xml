@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tsduck><EIT type="pf" version="20" current="true" actual="true" service_id="0x009B" transport_stream_id="0x0011" original_network_id="0x22D4" last_table_id="0x4E">
+    <metadata PID="18" />
+    <event event_id="0xE2F5" start_time="2026-04-18 15:14:00" duration="01:19:00" running_status="running" CA_mode="false">
+      <component_descriptor stream_content="0x03" stream_content_ext="0x0F" component_type="0x12" component_tag="0x00" language_code="spa" text="" />
+      <component_descriptor stream_content="0x01" stream_content_ext="0x0F" component_type="0x03" component_tag="0x00" language_code="spa" text="" />
+      <component_descriptor stream_content="0x02" stream_content_ext="0x0F" component_type="0x03" component_tag="0x00" language_code="spa" text="" />
+      <component_descriptor stream_content="0x03" stream_content_ext="0x0F" component_type="0x30" component_tag="0x00" language_code="spa" text="" />
+      <component_descriptor stream_content="0x02" stream_content_ext="0x0F" component_type="0x40" component_tag="0x00" language_code="spa" text="" />
+      <parental_rating_descriptor>
+        <country country_code="ESP" rating="0x09" />
+      </parental_rating_descriptor>
+      <content_descriptor>
+        <content content_nibble_level_1="3" content_nibble_level_2="2" user_byte="0x00" />
+      </content_descriptor>
+      <short_event_descriptor language_code="spa">
+        <event_name>PESADILLA EN LA COCINA</event_name>
+        <text />
+      </short_event_descriptor>
+      <extended_event_descriptor descriptor_number="0" last_descriptor_number="0" language_code="spa">
+        <text>Alberto Chicote sale al rescate de los restaurantes en crisis con su particular forma de entender el negocio culinario y de decir las cosas. | País: ESPAÑA | Reparto: Alberto Chicote  | SUBTITULADO AUDIODESCRITO SIGNADO HBBTV | Clasificación: 12</text>
+      </extended_event_descriptor>
+    </event>
+    <event event_id="0xE2F6" start_time="2026-04-18 16:33:00" duration="01:19:00" running_status="not-running" CA_mode="false">
+      <component_descriptor stream_content="0x01" stream_content_ext="0x0F" component_type="0x03" component_tag="0x00" language_code="spa" text="" />
+      <component_descriptor stream_content="0x02" stream_content_ext="0x0F" component_type="0x40" component_tag="0x00" language_code="spa" text="" />
+      <component_descriptor stream_content="0x02" stream_content_ext="0x0F" component_type="0x03" component_tag="0x00" language_code="spa" text="" />
+      <component_descriptor stream_content="0x03" stream_content_ext="0x0F" component_type="0x30" component_tag="0x00" language_code="spa" text="" />
+      <component_descriptor stream_content="0x03" stream_content_ext="0x0F" component_type="0x12" component_tag="0x00" language_code="spa" text="" />
+      <parental_rating_descriptor>
+        <country country_code="ESP" rating="0x09" />
+      </parental_rating_descriptor>
+      <content_descriptor>
+        <content content_nibble_level_1="3" content_nibble_level_2="2" user_byte="0x00" />
+      </content_descriptor>
+      <short_event_descriptor language_code="spa">
+        <event_name>PESADILLA EN LA COCINA</event_name>
+        <text />
+      </short_event_descriptor>
+      <extended_event_descriptor descriptor_number="0" last_descriptor_number="0" language_code="spa">
+        <text>Alberto Chicote sale al rescate de los restaurantes en crisis con su particular forma de entender el negocio culinario y de decir las cosas. | País: ESPAÑA | Reparto: Alberto Chicote  | SUBTITULADO AUDIODESCRITO SIGNADO HBBTV | Clasificación: 12</text>
+      </extended_event_descriptor>
+    </event>
+  </EIT>
+  </tsduck>

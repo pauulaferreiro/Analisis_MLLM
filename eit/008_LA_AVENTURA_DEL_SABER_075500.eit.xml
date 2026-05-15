@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tsduck><EIT type="pf" version="23" current="true" actual="true" service_id="0x021A" transport_stream_id="0x03F4" original_network_id="0x22D4" last_table_id="0x4E">
+    <metadata PID="18" />
+    <event event_id="0x6BA8" start_time="2026-04-08 07:55:00" duration="01:00:00" running_status="running" CA_mode="false">
+      <component_descriptor stream_content="0x04" stream_content_ext="0x0F" component_type="0xC2" component_tag="0x03" language_code="spa" text=" " />
+      <component_descriptor stream_content="0x03" stream_content_ext="0x0F" component_type="0x20" component_tag="0x11" language_code="spa" text=" " />
+      <component_descriptor stream_content="0x05" stream_content_ext="0x0F" component_type="0x0B" component_tag="0x01" language_code="spa" text=" " />
+      <parental_rating_descriptor>
+        <country country_code="ESP" rating="0x1D" />
+      </parental_rating_descriptor>
+      <content_descriptor>
+        <content content_nibble_level_1="7" content_nibble_level_2="6" user_byte="0x76" />
+      </content_descriptor>
+      <short_event_descriptor language_code="spa">
+        <event_name>LA AVENTURA DEL SABER</event_name>
+        <text />
+      </short_event_descriptor>
+      <extended_event_descriptor descriptor_number="0" last_descriptor_number="1" language_code="spa">
+        <text>Núm. cap.:352; Director:Lurdes Martín Arribas; Realizacion: Carlos González Herrero; Producción: Gonzalo Rohrer; Invitado/S: Borras Blasco, Consuelo; Productor Ejecutivo: Ainhoa Ramos; Hablamos del equilibrio entre la vida laboral y la personal y </text>
+      </extended_event_descriptor>
+      <extended_event_descriptor descriptor_number="1" last_descriptor_number="1" language_code="spa">
+        <text>de Marcela, la hija ilegítima de Lope de Vega.Ave Miercoles  08-04-2026 Prog 5263SUBT.</text>
+      </extended_event_descriptor>
+    </event>
+    <event event_id="0x6BA9" start_time="2026-04-08 08:55:00" duration="00:05:00" running_status="not-running" CA_mode="false">
+      <component_descriptor stream_content="0x05" stream_content_ext="0x0F" component_type="0x0B" component_tag="0x01" language_code="spa" text=" " />
+      <component_descriptor stream_content="0x04" stream_content_ext="0x0F" component_type="0xC2" component_tag="0x03" language_code="spa" text=" " />
+      <content_descriptor>
+        <content content_nibble_level_1="0" content_nibble_level_2="0" user_byte="0x00" />
+      </content_descriptor>
+      <short_event_descriptor language_code="spa">
+        <event_name>LA 2 EXPRESS</event_name>
+        <text />
+      </short_event_descriptor>
+    </event>
+  </EIT>
+  <EIT type="pf" version="24" current="true" actual="true" service_id="0x021A" transport_stream_id="0x03F4" original_network_id="0x22D4" last_table_id="0x4E">
+    <metadata PID="18" />
+    <event event_id="0x6BA9" start_time="2026-04-08 08:55:00" duration="00:05:00" running_status="starting" CA_mode="false">
+      <component_descriptor stream_content="0x05" stream_content_ext="0x0F" component_type="0x0B" component_tag="0x01" language_code="spa" text=" " />
+      <component_descriptor stream_content="0x04" stream_content_ext="0x0F" component_type="0xC2" component_tag="0x03" language_code="spa" text=" " />
+      <content_descriptor>
+        <content content_nibble_level_1="0" content_nibble_level_2="0" user_byte="0x00" />
+      </content_descriptor>
+      <short_event_descriptor language_code="spa">
+        <event_name>LA 2 EXPRESS</event_name>
+        <text />
+      </short_event_descriptor>
+    </event>
+    <event event_id="0x6BAA" start_time="2026-04-08 09:00:00" duration="00:25:41" running_status="not-running" CA_mode="false">
+      <component_descriptor stream_content="0x04" stream_content_ext="0x0F" component_type="0xC2" component_tag="0x04" language_code="qaa" text=" " />
+      <component_descriptor stream_content="0x05" stream_content_ext="0x0F" component_type="0x0B" component_tag="0x01" language_code="spa" text=" " />
+      <component_descriptor stream_content="0x03" stream_content_ext="0x0F" component_type="0x20" component_tag="0x11" language_code="spa" text=" " />
+      <component_descriptor stream_content="0x04" stream_content_ext="0x0F" component_type="0xC2" component_tag="0x03" language_code="spa" text=" " />
+      <parental_rating_descriptor>
+        <country country_code="ESP" rating="0x1D" />
+      </parental_rating_descriptor>
+      <content_descriptor>
+        <content content_nibble_level_1="8" content_nibble_level_2="0" user_byte="0x80" />
+      </content_descriptor>
+      <short_event_descriptor language_code="spa">
+        <event_name>DOCUMENTAL  HOTELES GOURMET</event_name>
+        <text />
+      </short_event_descriptor>
+      <extended_event_descriptor descriptor_number="0" last_descriptor_number="1" language_code="spa">
+        <text>Año:2020; Núm. cap.:3; Director:George Muskens; Guion: George Muskens; Fotografia: Ary Revolta, George Muskens, Ari Owar; Presentación: Phillip Davenport; El chef Stefane, muy talentoso pero muy loco, nos lleva en un viaje para aprender todo sobre</text>
+      </extended_event_descriptor>
+      <extended_event_descriptor descriptor_number="1" last_descriptor_number="1" language_code="spa">
+        <text> lo que hace que su región natal de Alsacia.Bar Roque, Primera ParteSUBT.</text>
+      </extended_event_descriptor>
+    </event>
+  </EIT>
+</tsduck>

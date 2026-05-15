@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tsduck><EIT type="pf" version="22" current="true" actual="true" service_id="0x0095" transport_stream_id="0x000F" original_network_id="0x22D4" last_table_id="0x4E">
+    <metadata PID="18" />
+    <event event_id="0x59A9" start_time="2026-04-23 11:20:00" duration="00:25:00" running_status="running" CA_mode="false">
+      <component_descriptor stream_content="0x01" stream_content_ext="0x0F" component_type="0x03" component_tag="0x00" language_code="spa" text="" />
+      <component_descriptor stream_content="0x02" stream_content_ext="0x0F" component_type="0x03" component_tag="0x00" language_code="spa" text="" />
+      <component_descriptor stream_content="0x03" stream_content_ext="0x0F" component_type="0x12" component_tag="0x00" language_code="spa" text="" />
+      <parental_rating_descriptor>
+        <country country_code="ESP" rating="0x1D" />
+      </parental_rating_descriptor>
+      <content_descriptor>
+        <content content_nibble_level_1="10" content_nibble_level_2="5" user_byte="0x00" />
+      </content_descriptor>
+      <short_event_descriptor language_code="spa">
+        <event_name>COCINA ABIERTA DE KARLOS ARGUIÑANO </event_name>
+        <text />
+      </short_event_descriptor>
+      <extended_event_descriptor descriptor_number="0" last_descriptor_number="0" language_code="spa">
+        <text>Karlos Arguiñano, nos enseña en Antena 3 sus mejores recetascon su estilo inconfundible que le ha convertido en el cocinero más mediático de la tele.  | SUBTITULADO | TODOS LOS PÚBLICOS</text>
+      </extended_event_descriptor>
+    </event>
+    <event event_id="0x59AA" start_time="2026-04-23 11:45:00" duration="01:15:00" running_status="not-running" CA_mode="false">
+      <component_descriptor stream_content="0x01" stream_content_ext="0x0F" component_type="0x03" component_tag="0x00" language_code="spa" text="" />
+      <component_descriptor stream_content="0x03" stream_content_ext="0x0F" component_type="0x12" component_tag="0x00" language_code="spa" text="" />
+      <component_descriptor stream_content="0x02" stream_content_ext="0x0F" component_type="0x03" component_tag="0x00" language_code="spa" text="" />
+      <parental_rating_descriptor>
+        <country country_code="ESP" rating="0x1D" />
+      </parental_rating_descriptor>
+      <content_descriptor>
+        <content content_nibble_level_1="3" content_nibble_level_2="1" user_byte="0x00" />
+      </content_descriptor>
+      <short_event_descriptor language_code="spa">
+        <event_name>LA RULETA DE LA SUERTE</event_name>
+        <text />
+      </short_event_descriptor>
+      <extended_event_descriptor descriptor_number="0" last_descriptor_number="0" language_code="spa">
+        <text>Concurso presentado por Jorge Fernández que pone a prueba la agilidad mental, los reflejos y los conocimientos de los participantes. | País: ESPAÑA | Reparto: Jorge Fernández, Laura Moure  | SUBTITULADO | TODOS LOS PÚBLICOS</text>
+      </extended_event_descriptor>
+    </event>
+  </EIT>
+  </tsduck>

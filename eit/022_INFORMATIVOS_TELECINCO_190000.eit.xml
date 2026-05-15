@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tsduck><EIT type="pf" version="6" current="true" actual="true" service_id="0x00BE" transport_stream_id="0x0010" original_network_id="0x22D4" last_table_id="0x4E">
+    <metadata PID="18" />
+    <event event_id="0xC9DD" start_time="2026-04-07 19:00:00" duration="00:30:00" running_status="running" CA_mode="false">
+      <content_descriptor>
+        <content content_nibble_level_1="2" content_nibble_level_2="0" user_byte="0x20" />
+      </content_descriptor>
+      <short_event_descriptor language_code="spa">
+        <event_name>INFORMATIVOS TELECINCO</event_name>
+        <text>INFORMATIVOS TELECINCO   SUB. LS HBBTV.</text>
+      </short_event_descriptor>
+    </event>
+    <event event_id="0xC9DE" start_time="2026-04-07 19:30:00" duration="00:10:00" running_status="not-running" CA_mode="false">
+      <content_descriptor>
+        <content content_nibble_level_1="2" content_nibble_level_2="0" user_byte="0x20" />
+      </content_descriptor>
+      <short_event_descriptor language_code="spa">
+        <event_name>ELDESMARQUE TELECINCO</event_name>
+        <text>ELDESMARQUE TELECINCO   SUB. LS HBBTV.</text>
+      </short_event_descriptor>
+    </event>
+  </EIT>
+  </tsduck>
