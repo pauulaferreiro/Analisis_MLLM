@@ -33,13 +33,7 @@ Sobre este proyecto se pueden realizar diferentes pruebas, en función del tipo 
 
 La estructura del código debe ser la siguiente:
 
-📁 codigos_definitivos_MLLM/
-├── 📄 .env                       # Variables de entorno (token hugging face)
-├── 📄 dataset_definitivo.csv     # Archivo CSV de entrada con la información de los vídeos
-├── 📁 carpeta_frames_completa/   # Directorio con los frames extraídos de los vídeos
-├── 📁 eit/                       # Directorio de metadatos EIT
-├── 📁 resultados/                # (Se autocompleta) Aquí se guardarán los JSON y el CSV final
-└── 📁 logs/                      # (Se autocompleta) Archivos de registro y monitorización
+![Estructura Archivos](estructura_archivos.png)
 
 --- 
 
