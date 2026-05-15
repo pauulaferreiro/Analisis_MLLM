@@ -24,11 +24,6 @@ Sobre este proyecto se pueden realizar diferentes pruebas, en función del tipo 
 
 ---
 
-## Prerrequisitos
-
-- **Docker** instalado en tu sistema. 
-- **NVIDIA Container Toolkit** configurado para permitir a Docker acceder a la GPU.
-
 ##  Estructura de Directorios
 
 La estructura del código debe ser la siguiente:
