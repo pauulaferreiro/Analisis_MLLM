@@ -14,8 +14,8 @@ from logger_config import log, monitor_latency, latency_log
 from metrics_monitor import ResourceMonitor, aggregate_metric_dicts
 
 #MODEL_ID = "Qwen/Qwen2.5-VL-3B-Instruct"
-#MODEL_ID = "mistralai/Ministral-3-3B-Instruct-2512-BF16"
-MODEL_ID = "mistral-community/pixtral-12b"
+MODEL_ID = "mistralai/Ministral-3-3B-Instruct-2512-BF16"
+#MODEL_ID = "mistral-community/pixtral-12b"
 
 CATEGORIES = [
     "Fiction", "News", "Show", "Sports",
@@ -544,6 +544,8 @@ Descripción Extendida de la Emisión:
             "pipeline_mode": input_mode.lower()
         }
 
+        torch.cuda.empty_cache()
+        
         return result, [prediction_data], aggregate_metrics
 
     @monitor_latency
