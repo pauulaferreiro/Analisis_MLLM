@@ -73,7 +73,7 @@ def main():
     for exp in experimentos:
         print(f"\n Lanzamiento experimento: {exp['nombre']}")
         
-        comando = [sys.executable, base_script] + exp["argumentos"]
+        comando = [sys.executable, "-u", base_script] + exp["argumentos"]
         
         try:
             subprocess.run(comando, check=True)
