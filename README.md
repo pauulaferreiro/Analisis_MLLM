@@ -33,7 +33,8 @@ Sobre este proyecto se pueden realizar diferentes pruebas, en función del tipo 
 
 La estructura del código debe ser la siguiente:
 
-![Estructura Archivos](estructura_archivos.png)
+<img width="557" height="116" alt="estructura_archivos" src="https://github.com/user-attachments/assets/882750c9-668d-4d40-ae21-a414199ee978" />
+
 
 --- 
 
