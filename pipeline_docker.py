@@ -17,7 +17,7 @@ os.environ["HF_TOKEN"] = "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"
 
 #MODEL_ID = "Qwen/Qwen2.5-VL-3B-Instruct"
 #MODEL_ID = "mistralai/Ministral-3-3B-Instruct-2512-BF16"
-MODEL_ID = "mistralai/Pixtral-12B-2409"
+MODEL_ID = "mistral-community/pixtral-12b"
 
 CATEGORIES = [
     "Fiction", "News", "Show", "Sports",
