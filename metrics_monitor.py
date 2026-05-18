@@ -45,8 +45,8 @@ class ResourceMonitor:
         self._t1 = None
         self._gpu_handle = None
         self._rapl_meter = None
-        self._gpu_energy_uj_start = None
-        self._gpu_energy_uj_end = None
+        self._gpu_energy_mj_start = None
+        self._gpu_energy_mj_end = None
 
         if PYRAPL_AVAILABLE:
             try:
