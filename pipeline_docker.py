@@ -13,7 +13,7 @@ from transformers import AutoModelForImageTextToText, AutoProcessor, BitsAndByte
 from logger_config import log, monitor_latency, latency_log
 from metrics_monitor import ResourceMonitor, aggregate_metric_dicts
 
-os.environ["HF_TOKEN"] = "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"
+os.environ["HF_TOKEN"] = "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" #token READ
 
 #MODEL_ID = "Qwen/Qwen2.5-VL-3B-Instruct"
 #MODEL_ID = "mistralai/Ministral-3-3B-Instruct-2512-BF16"
@@ -65,7 +65,7 @@ class VideoClassifier:
 
         self.processor = AutoProcessor.from_pretrained(
             MODEL_ID,
-            fix_mistral_regex=True
+            #fix_mistral_regex=True
         )
 
         self.model = AutoModelForImageTextToText.from_pretrained(
