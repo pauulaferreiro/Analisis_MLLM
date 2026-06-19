@@ -13,11 +13,9 @@ from transformers import AutoModelForImageTextToText, AutoProcessor, BitsAndByte
 from logger_config import log, monitor_latency, latency_log
 from metrics_monitor import ResourceMonitor, aggregate_metric_dicts
 
-os.environ["HF_TOKEN"] = "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" 
-
-#MODEL_ID = "Qwen/Qwen2.5-VL-3B-Instruct"
-#MODEL_ID = "mistralai/Ministral-3-3B-Instruct-2512-BF16"
-MODEL_ID = "mistral-community/pixtral-12b"
+#### A completar ####
+os.environ["HF_TOKEN"] = "" 
+#MODEL_ID = ""
 
 CATEGORIES = [
     "Fiction", "News", "Show", "Sports",
