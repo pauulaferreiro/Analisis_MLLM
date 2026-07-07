@@ -414,8 +414,8 @@ def main():
             print(f"CATEGORÍA MODELO: {categoria_final}")
             print(f"CATEGORÍA EPG: {gt_epg}")
             print(f"CATEGORÍA MANUAL: {gt_manual}")
-            print(f"MODELO vs EPG: {'sí✅' if coincide_epg else 'no❌'}")
-            print(f"MODELO vs MANUAL: {'sí✅' if coincide_manual else 'no❌'}")
+            print(f"MODELO vs EPG: {'sí' if coincide_epg else 'no'}")
+            print(f"MODELO vs MANUAL: {'sí' if coincide_manual else 'no'}")
 
             print("TOP 3 FINAL POR VOTOS:")
             for item in final_top3_votes:
